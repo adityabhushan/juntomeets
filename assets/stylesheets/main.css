@@ -83,22 +83,27 @@ body {
 }
 .grid,
 .col-1-3,
-.col-2-3 {
+.col-2-3,
+.col-1-5 {
   padding-left: 15px;
   padding-right: 15px;
 }
 .col-1-3,
-.col-2-3  {
+.col-2-3,
+.col-1-5  {
   display: inline-block;
   vertical-align: top;
 }
 .col-1-3 {
-  width: 33.33%;
+  width: 33%;
 }
 .col-2-3 {
   width: 66.66%;
 }
 
+.col-1-5 {
+  width:20%;
+}
 /*
   ========================================
   Clearfix
@@ -388,10 +393,10 @@ td {
 th {
   padding-right: 45px;
   text-align: right;
-  width: 20%;
+  width: 10%;
 }
 td {
-  width: 40%;
+  width: 30%;
 }
 thead {
   line-height: 44px;
@@ -428,6 +433,7 @@ table h4 {
   margin-bottom: 0;
 }
 .schedule-offset {
+  text-align: center;
   color: #a9b2b9;
 }
 
